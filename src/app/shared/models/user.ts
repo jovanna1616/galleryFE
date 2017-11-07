@@ -5,6 +5,7 @@ export class User {
 	    public lastName: string,
 	    public email: string,
 	    public password: string,
-	    public accepted_terms: boolean
+	    public passwordConfirm: string,
+	    public acceptedTerms: boolean
 	){}
 }

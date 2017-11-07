@@ -6,11 +6,12 @@ import { AuthService } from './services/auth.service';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   declarations: [],
   providers: [
-    AuthService
+    AuthService,
   ],
 })
 export class SharedModule { }

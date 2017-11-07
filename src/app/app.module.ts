@@ -21,7 +21,7 @@ import { RegisterPageComponent } from './components/auth/register-page/register-
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    SharedModule
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
